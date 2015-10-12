@@ -26,6 +26,7 @@ public class PacemakerAPI
     return user;
   }
 
+  
   public User getUser(String email) 
   {
     for (User user : users)
