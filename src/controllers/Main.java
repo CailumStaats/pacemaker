@@ -18,6 +18,7 @@ public class Main
     pacemakerAPI.createUser("Homer", "Simpson", "homer@simpson.com", "secret");
     pacemakerAPI.createUser("Lisa",  "Simpson", "lisa@simpson.com",  "secret");
 
+    
     Collection<User> users = pacemakerAPI.getUsers();
     System.out.println(users);
   }
